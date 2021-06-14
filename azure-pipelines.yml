@@ -25,5 +25,5 @@ steps:
 
 - script: composer install --no-interaction --prefer-dist
   displayName: 'composer install'
-- script: 'composer parallel'
+- script: `composer parallel`
   displayName: 'composer parallel'
