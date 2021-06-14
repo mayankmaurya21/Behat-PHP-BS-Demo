@@ -16,9 +16,9 @@ default:
 
                 environments:
                     -
-                        browser: "chrome"
-                    -
                         browser: "firefox"
+                    -
+                        browser: "chrome"
                     -
                         browser: "safari"
                     -

@@ -11,9 +11,10 @@ class FeatureContext extends BrowserStackContext {
   /** @Given /^I am on "([^"]*)"$/ */
   public function iAmOnSite($url) {
     self::$driver->get($url);
+    sleep(5);
   }
 
-  /** @When /^I search for "([^"]*)"$/ */
+  /** @Then /^I search for "([^"]*)"$/ */
   public function iSearchFor($searchText) {
     $element = self::$driver->findElement(WebDriverBy::name("q"));
     $element->sendKeys($searchText);
