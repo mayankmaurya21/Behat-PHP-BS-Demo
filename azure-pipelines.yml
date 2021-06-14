@@ -1,4 +1,7 @@
 # PHP
+- task: BrowserStackConfig@0
+  inputs:
+    BrowserStackServiceEndPoint: 'demo account'
 # Test and package your PHP project.
 # Add steps that run tests, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/php
