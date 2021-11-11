@@ -6,8 +6,8 @@ default:
         parameters:
             browserstack:
                 server: "hub-cloud.browserstack.com"
-                user: "mayankmaurya4"
-                key: "JzJJjes3cyzHaynTqJpe"
+                user: ""
+                key: ""
 
                 capabilities:
                     build: "behat-browserstack"
